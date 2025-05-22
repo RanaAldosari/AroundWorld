@@ -8,10 +8,10 @@ function Footer() {
           <div className='flex flex-col sm:flex-row justify-between items-center sm:items-start'>
   <div className='mb-6 sm:mb-0'>
     <p className='text-xl font-semibold mb-4'> تواصل معنا</p>
-      <div className='flex gap-4 sm:text-[8px]'>
+      <div className='flex gap-4 items-center'>
         {/* icons */}
        <i className="fab fa-facebook text-2xl hover:text-blue-600  duration-400"></i>
-       <i class="fa-brands fa-x-twitter hover:text-blue-600  duration-400"></i>
+       <i className="fa-brands fa-x-twitter hover:text-blue-600  duration-400"></i>
        <i className="fab fa-instagram text-2xl hover:text-blue-600  duration-400"></i>
         <i className="fab fa-linkedin text-2xl hover:text-blue-600  duration-400"></i>
    </div>
